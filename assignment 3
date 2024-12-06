@@ -1,11 +1,12 @@
-# $5.00 Sunflowers at 10% off calculator:
+print("Final price of: ", Sunflowers , ": R", FinalCost)# R50.00 Sunflowers at 25% off calculator:
 #variables
-cost = 5
-Sunflowers = 10
+cost = 50
+Sunflowers = 40
 
 #calculator
 
 Total = float(cost) * int(Sunflowers)
-Discount = float(Total) * 0.1
+Discount = float(Total) * 0.25
 FinalCost = float(Total) - float(Discount)
-print("Final price of: ", Sunflowers , ": $", FinalCost)
+
+
